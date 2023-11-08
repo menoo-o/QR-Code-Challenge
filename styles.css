@@ -1,0 +1,73 @@
+/* 
+Colors: 
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+
+ Font size (paragraph): 15px
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Barlow+Semi+Condensed:wght@500;600&family=Dosis:wght@400;700&family=Freckle+Face&family=Karla&family=Lato&family=Mooli&family=Outfit:wght@400;700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* ////////////////////// */
+
+html{
+    font-size: 15px;
+    font-family: 'Outfit',sans-serif;
+}
+
+body{
+    background-color: rgba(213,225,239,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 49vh; height: 70vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6%;
+    padding: 1.1rem 0.9rem 1.5rem 0.9rem;
+}
+
+img{
+    display: block;
+    width: 19.8rem; height: 19.5rem;
+    border-radius: 4%;
+    margin-bottom: 1.7rem;
+    
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text p:first-child{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.67rem;
+    margin-bottom: 1rem;
+}
+
+.text p:last-child{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-size: 1.25rem;
+}
